@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gin-gonic/gin"
+	"github.com/nycu-ucr/gin"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	formatter "github.com/tim-ywliu/nested-logrus-formatter"

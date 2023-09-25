@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"golang.org/x/net/http2"
-	"golang.org/x/net/http2/h2c"
+	"github.com/nycu-ucr/net/http2"
+	"github.com/nycu-ucr/net/http2/h2c"
 )
 
 type Request struct {
