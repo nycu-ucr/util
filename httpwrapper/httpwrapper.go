@@ -3,7 +3,7 @@ package httpwrapper
 import (
 	"crypto/tls"
 	"fmt"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"net/url"
 	"os"
 	"time"

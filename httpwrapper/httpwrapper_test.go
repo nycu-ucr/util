@@ -2,7 +2,7 @@ package httpwrapper
 
 import (
 	"context"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
