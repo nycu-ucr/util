@@ -1,9 +1,10 @@
-module github.com/free5gc/util
+module github.com/nycu-ucr/util
 
 go 1.17
 
 require (
 	github.com/evanphx/json-patch v0.5.2
+	github.com/free5gc/util v1.0.4
 	github.com/mitchellh/mapstructure v1.4.2
 	github.com/nycu-ucr/gin v0.0.0-20230307121200-573befe2dfbe
 	github.com/nycu-ucr/net v0.0.0-20230321075841-be2b9a37bf1d
@@ -21,11 +22,14 @@ require (
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
 	github.com/cornelk/hashmap v1.0.8 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/gin-contrib/sse v0.1.0 // indirect
+	github.com/gin-gonic/gin v1.7.3 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-playground/validator/v10 v10.11.2 // indirect
 	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/goccy/go-json v0.10.0 // indirect
+	github.com/golang/protobuf v1.5.0 // indirect
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/gopherjs/gopherjs v0.0.0-20181017120253-0766667cb4d1 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
