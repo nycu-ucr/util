@@ -4,8 +4,6 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net"
-	"github.com/nycu-ucr/gonet/http"
-	"net/http/httputil"
 	"os"
 	"path"
 	"path/filepath"
@@ -13,6 +11,9 @@ import (
 	"runtime/debug"
 	"strconv"
 	"strings"
+
+	"github.com/nycu-ucr/gonet/http"
+	"github.com/nycu-ucr/gonet/http/httputil"
 
 	"github.com/nycu-ucr/gin"
 	"github.com/pkg/errors"
