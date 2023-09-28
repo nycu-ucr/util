@@ -58,6 +58,8 @@ func NewHttp2Server(bindAddr string, preMasterSecretLogPath string, handler http
 		IdleTimeout: 1 * time.Millisecond,
 	}
 	server := &http.Server{
+		USING_ONVM_SOCKET:     true,
+		USING_ONVM_XIO_SOCKET: true,
 		Addr:    bindAddr,
 		Handler: onvm2c.NewHandler(handler, h2Server),
 	}
